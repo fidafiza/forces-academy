@@ -22,15 +22,20 @@ body{
    NAVBAR
 =========================== */
 
-#mainNav{
 
+
+    #mainNav{
     background:transparent;
-
     padding:18px 0;
-
     transition:.4s ease;
-
+    z-index:9999;
 }
+
+#mainNav.scrolled{
+    background:#081b33 !important;
+}
+
+
 
 .navbar-brand{
 
@@ -159,7 +164,10 @@ body{
     box-shadow:none;
 
 }
-
+#mainNav.scrolled{
+    background:#081b33 !important;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
 /* ===========================
    HERO
 =========================== */
@@ -184,6 +192,11 @@ body{
     transparent 35%),
 
     linear-gradient(135deg,#081223,#20104d);
+    margin-top:-92px;
+padding-top:92px;
+
+    min-height:100vh;
+    padding-bottom:80px;
 
 }
 
@@ -285,25 +298,6 @@ body{
 
 /* Curve */
 
-.hero-curve{
-
-    position:absolute;
-
-    bottom:-120px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-    width:180%;
-
-    height:220px;
-
-    background:white;
-
-    border-radius:50%;
-
-}
 
 /* ===========================
    RESPONSIVE
@@ -478,4 +472,660 @@ body{
 
 align-items:center;
 
+}
+
+/*==========================
+        FOOTER
+===========================*/
+
+.footer-section{
+    background: linear-gradient(135deg,#06142d,#0b2a52);
+    color:#fff;
+    padding:80px 0 25px;
+    margin-top:100px;
+}
+
+.footer-logo{
+    font-size:30px;
+    font-weight:700;
+    color:#FFC107;
+    margin-bottom:20px;
+}
+
+.footer-section p{
+    color:#d9d9d9;
+    line-height:1.8;
+}
+
+.footer-section h5{
+    color:#fff;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.footer-links{
+    list-style:none;
+    padding:0;
+}
+
+.footer-links li{
+    margin-bottom:12px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#d9d9d9;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#FFC107;
+    padding-left:8px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    background:rgba(255,255,255,.08);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    color:#fff;
+    font-size:20px;
+    transition:.4s;
+}
+
+.social-icons a:hover{
+    background:#FFC107;
+    color:#06142d;
+    transform:translateY(-8px) rotate(360deg);
+}
+
+.footer-section hr{
+    border-color:rgba(255,255,255,.15);
+    margin:45px 0 25px;
+}
+
+.footer-bottom{
+    color:#bdbdbd;
+    font-size:15px;
+}
+
+.footer-section i{
+    color:#FFC107;
+    margin-right:10px;
+}
+
+/* ===========================
+      ABOUT PAGE
+=========================== */
+
+.about-section{
+    padding:100px 0;
+    background:linear-gradient(135deg,#08172f,#24124f);
+    color:#fff;
+}
+
+.section-tag{
+    display:inline-block;
+    background:rgba(255,255,255,.08);
+    color:#FFC107;
+    padding:10px 22px;
+    border-radius:50px;
+    font-size:15px;
+    font-weight:600;
+    border:1px solid rgba(255,255,255,.15);
+}
+
+.about-title{
+    font-size:52px;
+    font-weight:800;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+.about-text{
+    font-size:18px;
+    color:#d9d9d9;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.about-img{
+    border-radius:25px;
+    transition:.4s;
+}
+
+.about-img:hover{
+    transform:scale(1.03);
+}
+
+/*==========================
+    Mission & Vision
+===========================*/
+
+.mission-vision{
+    background:#f8f9fa;
+    padding:80px 0;
+}
+
+.mv-card{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+}
+
+.mv-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.mv-icon{
+    width:80px;
+    height:80px;
+    background:#FFC107;
+    color:#06142d;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+    font-size:32px;
+}
+
+.mv-card h3{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.mv-card p{
+    color:#666;
+    line-height:1.8;
+}
+/*==========================
+    Why Choose Us
+===========================*/
+
+.why-choose{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.section-title{
+    font-size:42px;
+    font-weight:700;
+    color:#06142d;
+}
+
+.section-subtitle{
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
+
+.feature-card{
+    background:#fff;
+    border-radius:20px;
+    padding:40px 25px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.feature-card i{
+    font-size:50px;
+    color:#FFC107;
+    margin-bottom:20px;
+}
+
+.feature-card h4{
+    font-weight:700;
+    margin-bottom:15px;
+    color:#06142d;
+}
+
+.feature-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+/*==========================
+      Leadership Team
+===========================*/
+
+.team-section{
+    background:#f8f9fa;
+    padding:100px 0;
+}
+
+.team-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.team-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.team-content{
+    padding:25px;
+}
+
+.team-content h4{
+    color:#06142d;
+    font-weight:700;
+}
+
+.team-content p{
+    color:#FFC107;
+    font-weight:600;
+}
+.stats-section{
+    background:#081223;
+    padding:80px 0;
+}
+
+.stat-box{
+    color:white;
+}
+
+.stat-box h2{
+    color:#FFC107;
+    font-size:52px;
+    font-weight:700;
+}
+
+.stat-box p{
+    color:#d0d0d0;
+    font-size:18px;
+}
+.home-features{
+
+background:white;
+
+padding:100px 0;
+
+}
+
+.home-features h2{
+
+font-size:46px;
+
+font-weight:700;
+
+color:#081223;
+
+margin-bottom:60px;
+
+}
+
+.home-card{
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.4s;
+
+height:100%;
+
+}
+
+.home-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+.home-card i{
+
+font-size:55px;
+
+color:#FFC107;
+
+margin-bottom:20px;
+
+}
+
+.home-card h4{
+
+font-weight:700;
+
+margin-bottom:15px;
+
+}
+.cta-section{
+
+padding:100px 0;
+
+background:linear-gradient(135deg,#081223,#25114f);
+
+color:white;
+
+text-align:center;
+
+}
+
+.cta-section h2{
+
+font-size:48px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.cta-section p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+color:#ddd;
+
+}
+/*=========================
+      Courses Section
+=========================*/
+
+.courses-section{
+    padding:100px 0;
+    background:#f8f9fa;
+}
+
+.course-card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+}
+
+.course-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.course-card i{
+    font-size:50px;
+    color:#FFC107;
+    margin-bottom:20px;
+}
+
+.course-card h4{
+    color:#081b33;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.course-card p{
+    color:#666;
+}
+
+.course-card ul{
+    padding-left:18px;
+    color:#555;
+    margin-bottom:25px;
+}
+
+/*=========================
+      Courses Page
+=========================*/
+
+.courses-section{
+    padding:100px 0;
+    background:#f8f9fa;
+}
+
+.course-card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+}
+
+.course-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.course-card i{
+    font-size:55px;
+    color:#FFC107;
+    margin-bottom:20px;
+}
+
+.course-card h4{
+    color:#081b33;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.course-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+.course-card hr{
+    margin:20px 0;
+}
+
+.course-card .btn{
+    margin-top:15px;
+}
+/*==========================
+      HOW TO APPLY
+===========================*/
+
+.list-group{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.list-group-item{
+    border:none;
+    padding:22px 25px;
+    font-size:18px;
+    font-weight:500;
+    color:#081b33;
+    transition:.3s;
+    background:#fff;
+}
+
+.list-group-item:not(:last-child){
+    border-bottom:1px solid #eee;
+}
+
+.list-group-item:hover{
+    background:#081b33;
+    color:#fff;
+    transform:translateX(8px);
+}
+
+.list-group-numbered>.list-group-item::before{
+    background:#FFC107;
+    color:#081b33;
+    font-weight:700;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:15px;
+}
+/*==========================
+   Eligibility Criteria
+==========================*/
+
+.eligibility-section{
+    background:#ffffff;
+    padding:100px 0;
+}
+
+.eligibility-card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px 25px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.eligibility-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.eligibility-card i{
+    font-size:55px;
+    color:#FFC107;
+    margin-bottom:20px;
+}
+
+.eligibility-card h4{
+    color:#081b33;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.eligibility-card p{
+    color:#666;
+    line-height:1.8;
+}
+/*==========================
+   Required Documents
+==========================*/
+
+.documents-section{
+    background:#f8f9fa;
+    padding:100px 0;
+}
+
+.documents-list{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.documents-list .list-group-item{
+    padding:22px 25px;
+    font-size:18px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    border:none;
+    transition:.3s;
+}
+
+.documents-list .list-group-item:not(:last-child){
+    border-bottom:1px solid #eee;
+}
+
+.documents-list .list-group-item i{
+    color:#28a745;
+    font-size:24px;
+}
+
+.documents-list .list-group-item:hover{
+    background:#081b33;
+    color:#fff;
+    transform:translateX(8px);
+}
+
+.documents-list .list-group-item:hover i{
+    color:#FFC107;
+}
+/*==========================
+      Fee Structure
+==========================*/
+
+.fee-section{
+    background:#ffffff;
+    padding:100px 0;
+}
+
+.fee-table{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.fee-table thead{
+    background:#081b33;
+    color:#fff;
+}
+
+.fee-table th,
+.fee-table td{
+    padding:18px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.fee-table tbody tr:hover{
+    background:#fff7e0;
+    transition:.3s;
+}
+/*==========================
+      Admission CTA
+==========================*/
+
+.cta-section{
+    padding:100px 0;
+    background:linear-gradient(135deg,#081223,#25114f);
+    color:#fff;
+    text-align:center;
+}
+
+.cta-section h2{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.cta-section p{
+    font-size:20px;
+    color:#ddd;
+    max-width:700px;
+    margin:0 auto 30px;
 }
