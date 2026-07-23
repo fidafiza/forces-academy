@@ -341,34 +341,33 @@ padding-top:92px;
 
 }
 
-@media(max-width:576px){
+@media (max-width:576px){
+
+    .hero-overlay{
+        padding-top:80px;
+    }
 
     .hero-title{
-
-    color:#fff;
-
-    font-size:85px;
-
-    font-weight:800;
-
-    line-height:1.05;
-
-    letter-spacing:-2px;
-
-    margin-bottom:25px;
-
-}
+        font-size:48px;
+        line-height:1.2;
+        margin-bottom:20px;
+        word-break:break-word;
+    }
 
     .hero-text{
-
         font-size:16px;
+        line-height:1.7;
+        padding:0 10px;
+    }
 
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
     }
 
     .hero-buttons .btn{
-
-        width:100%;
-
+        width:220px;
     }
 
 }
@@ -468,6 +467,7 @@ padding-top:92px;
     left:30%;
 
 }
+
 .navbar-nav{
 
 align-items:center;
