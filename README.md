@@ -58,6 +58,34 @@ https://github.com/fidafiza/forces-academy
 - Git & GitHub
 
 ---
+## Week 3 Progress
+
+### Completed Pages
+
+- Results Page
+- Gallery Page
+- Contact Page
+
+### Features Implemented
+
+- Responsive Results Table
+- Filter UI
+- Gallery Grid
+- GLightbox Image Preview
+- Gallery Category Filter (JavaScript)
+- Contact Form
+- JavaScript Form Validation
+- Google Maps Embed
+- Social Media Section
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Bootstrap Icons
+- GLightbox
 
 ## 👩‍💻 Developed By
 
