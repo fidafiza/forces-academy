@@ -78,3 +78,93 @@ if(form){
     });
 
 }
+// ==========================
+// Animated Stats Counter
+// ==========================
+
+const counters = document.querySelectorAll(".counter");
+const statsSection = document.querySelector(".stats-section");
+
+let counterStarted = false;
+
+const startCounters = () => {
+
+    counters.forEach(counter => {
+
+        const target = Number(counter.getAttribute("data-target"));
+        let current = 0;
+
+        const increment = target / 100;
+
+        const updateCounter = () => {
+
+            current += increment;
+
+            if (current < target) {
+                counter.textContent = Math.ceil(current);
+                requestAnimationFrame(updateCounter);
+            } else {
+                counter.textContent = target;
+            }
+
+        };
+
+        updateCounter();
+
+    });
+
+};
+
+
+// Intersection Observer
+
+if (statsSection) {
+
+    const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting && !counterStarted) {
+
+                counterStarted = true;
+                startCounters();
+
+            }
+
+        });
+
+    }, {
+        threshold: 0.3
+    });
+
+    observer.observe(statsSection);
+
+}
+// Back to Top Button
+
+const backToTop = document.getElementById("backToTop");
+
+if (backToTop) {
+
+    backToTop.style.display = "none";
+
+    window.addEventListener("scroll", function () {
+
+        if (window.scrollY > 50) {
+            backToTop.style.display = "flex";
+        } else {
+            backToTop.style.display = "none";
+        }
+
+    });
+
+    backToTop.addEventListener("click", function () {
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
+
+}
