@@ -1,6 +1,10 @@
 # 🎓 Forces Academy Faisalabad Website
 
-A modern and responsive educational website developed as part of the Frontend Internship Program.
+A modern, responsive, and interactive educational website developed as part of the **Frontend Internship Program — Code Saviours SI-26 (2026)**.
+
+The website provides information about Forces Academy Faisalabad, including courses, admissions, academic results, gallery, testimonials, and contact information.
+
+---
 
 ## 🌐 Live Website
 
@@ -12,8 +16,37 @@ https://github.com/fidafiza/forces-academy
 
 ---
 
-## ✅ Week 1 Progress
+## ✨ Features
 
+- Responsive and modern educational website
+- Responsive navigation bar
+- Premium hero sections
+- Animated statistics counter
+- Testimonials carousel
+- Smooth scrolling
+- Back to Top button
+- About Academy section
+- Courses section with responsive cards
+- Admissions information
+- Academic Results table
+- Gallery with category filtering
+- GLightbox image preview
+- Contact form with JavaScript validation
+- Google Maps integration
+- Social media links
+- Responsive design for mobile, tablet, and desktop
+- Consistent navbar and footer across pages
+- Button and link hover effects
+- Distinct Student Portal button
+- Cross-browser tested
+
+---
+
+# 📅 Weekly Progress
+
+## ✅ Week 1 — Home Page
+
+### Completed
 - Responsive Home Page
 - Premium Hero Section
 - Responsive Navigation Bar
@@ -24,7 +57,7 @@ https://github.com/fidafiza/forces-academy
 
 ---
 
-## ✅ Week 2 Progress
+## ✅ Week 2 — About, Courses & Admissions
 
 ### About Page
 - Academy Overview
@@ -47,82 +80,61 @@ https://github.com/fidafiza/forces-academy
 
 ---
 
-## 🛠️ Technologies Used
+## ✅ Week 3 — Results, Gallery & Contact
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Bootstrap Icons
-- Google Fonts (Poppins)
-- JavaScript
-- Git & GitHub
-
----
-## Week 3 Progress
-
-### Completed Pages
-
-- Results Page
-- Gallery Page
-- Contact Page
-
-### Features Implemented
-
+### Results Page
 - Responsive Results Table
-- Filter UI
-- Gallery Grid
+- Class and Year Filter UI
+- Sample student results
+- Administration note
+
+### Gallery Page
+- Responsive Gallery Grid
 - GLightbox Image Preview
-- Gallery Category Filter (JavaScript)
+- Gallery Category Filter using JavaScript
+- Categories:
+  - All
+  - Events
+  - Sports
+  - Academic
+
+### Contact Page
 - Contact Form
 - JavaScript Form Validation
 - Google Maps Embed
+- Contact Information Cards
 - Social Media Section
 
-### Technologies Used
+---
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Bootstrap Icons
-- GLightbox
-# WEEK 4 — JavaScript Interactivity + Animations + Cross-Page Polish
+## ✅ Week 4 — JavaScript Interactivity + Animations
 
-## 📅 Week 4
-**July 20 – July 24, 2026**
+### Animated Stats Counter
+Added animated statistics for:
+- Number of Students
+- Years of Excellence
+- Courses Offered
+- Success Rate
 
-## 📌 Overview
+Used JavaScript and the **Intersection Observer API** to trigger the counters when the section enters the viewport.
 
-Week 4 focused on adding JavaScript interactivity, animations, responsive improvements, and cross-page consistency to the Forces Academy Faisalabad website.
+### Testimonials Slider
+- Added testimonial cards
+- Student photo placeholders
+- Student names and class/year
+- Testimonial quotes
+- Automatic slideshow
+- Manual previous/next controls
+- Bootstrap Carousel
 
-## ✅ Tasks Completed
+### Smooth Scroll + Back to Top
+- Added smooth scrolling behavior
+- Added floating Back to Top button
+- Button appears after scrolling down
+- Smoothly returns to the top of the page
 
-### 1. Animated Stats Counter
-- Added a statistics section to the Home page.
-- Added animated counters for:
-  - Number of Students
-  - Years of Excellence
-  - Courses Offered
-  - Success Rate
-- Used JavaScript to animate numbers smoothly.
-- Used the **Intersection Observer API** to start the animation when the stats section enters the viewport.
-
-### 2. Testimonials Slider
-- Added a testimonials section to the Home page.
-- Added multiple testimonial cards.
-- Added student photo placeholders.
-- Added student names, classes/years, and testimonial quotes.
-- Added automatic slideshow and manual navigation controls using Bootstrap Carousel.
-
-### 3. Smooth Scroll + Back to Top
-- Added smooth scrolling behavior.
-- Added a floating **Back to Top** button.
-- Button appears after scrolling down the page.
-- Button smoothly scrolls the user back to the top.
-
-### 4. Cross-Page Consistency & Responsive Design
-Reviewed and polished all website pages:
-
+### Responsive & Cross-Page Polish
+Reviewed:
 - Home
 - About
 - Courses
@@ -132,47 +144,150 @@ Reviewed and polished all website pages:
 - Contact
 
 Checked:
-- Consistent navbar across all pages
+- Consistent navbar
 - Active navigation links
 - Consistent footer
-- Responsive layout at:
-  - 375px Mobile
-  - 768px Tablet
-  - 1440px Desktop
-- Working navigation and page links
-- Images loading correctly
-- Mobile and tablet spacing improvements
-- Hero sections and buttons properly aligned
+- Responsive layout
+- 375px mobile
+- 768px tablet
+- 1440px desktop
+- Working links
+- Working images
+- Hero section alignment
+- Mobile/tablet spacing
 
-## 🛠️ Technologies Used
+---
+
+# ✅ Week 5 — Final Polish + Deployment + Testing
+
+## Final Visual Polish
+
+- Reviewed all website pages for consistency
+- Improved hero section decorative bubble positioning
+- Checked typography and readability
+- Reviewed spacing across sections
+- Maintained consistent color scheme
+- Verified button hover effects
+- Verified link hover effects
+- Made Student Portal visually distinct
+- Improved responsive appearance
+
+## Cross-Browser Testing
+
+The website was tested on:
+
+- ✅ Google Chrome
+- ✅ Microsoft Edge
+- ✅ Mozilla Firefox
+
+### Mobile Testing
+
+Responsive layouts were tested using Chrome DevTools at:
+
+- ✅ 375px Mobile
+- ✅ 768px Tablet
+- ✅ 1440px Desktop
+
+### Final Checks
+
+- ✅ Navigation links working
+- ✅ Images loading correctly
+- ✅ Navbar consistent across pages
+- ✅ Footer consistent across pages
+- ✅ Responsive layouts
+- ✅ Buttons working
+- ✅ Hover effects
+- ✅ Back to Top button
+- ✅ Gallery filtering
+- ✅ Contact form validation
+- ✅ Testimonials carousel
+- ✅ Animated statistics counter
+
+---
+
+# 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - Bootstrap 5
 - JavaScript
+- Bootstrap Icons
+- Google Fonts — Poppins
+- GLightbox
 - Intersection Observer API
 - Bootstrap Carousel
-- Bootstrap Icons
-
-## 🌐 Website Pages
-
-- Home
-- About
-- Courses
-- Admissions
-- Results
-- Gallery
-- Contact
-
-## 🎯 Week 4 Outcome
-
-The Forces Academy Faisalabad website was enhanced with JavaScript-based interactivity, animated statistics, testimonials, smooth scrolling, a Back to Top button, responsive improvements, and consistent styling across all pages.
+- Google Maps
+- Git
+- GitHub
+- GitHub Pages
 
 ---
 
-**Week 4 Status: ✅ Completed**
+# 📄 Website Pages
 
-## 👩‍💻 Developed By
+1. Home
+2. About
+3. Courses
+4. Admissions
+5. Results
+6. Gallery
+7. Contact
 
-**Fiza**
-Frontend Intern
+---
+
+# 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+### 📚 Courses Page
+
+![Courses Page](screenshots/courses.png)
+
+### 📞 Contact Page
+
+![Contact Page](screenshots/contact.png)
+
+# 🎯 Final Project Outcome
+
+The Forces Academy Faisalabad website was developed into a complete responsive educational website with modern UI design, JavaScript interactivity, animations, responsive layouts, cross-page consistency, and GitHub Pages deployment.
+
+The website was tested across desktop browsers and responsive screen sizes to ensure a consistent user experience.
+
+---
+
+## 🚀 Deployment
+
+The project is deployed using **GitHub Pages**.
+
+### Live Site
+
+https://fidafiza.github.io/forces-academy/
+
+---
+
+## ⚠️ Known Issues / Future Improvements
+
+- Add a backend/database for real student results.
+- Connect the admission form to a backend system.
+- Add a real student portal authentication system.
+- Add an admin dashboard for managing results and content.
+- Optimize and compress images further for improved loading speed.
+- Add more dynamic content and real academy data in the future.
+
+---
+
+## 👩‍💻 Built By
+
+Fiza 
+Frontend Intern  
+Code Saviours SI-26 | 2026
+
+---
+
+## 📌 Project Status
+
+**Week 5 — ✅ Completed**
+
+**Final Polish + Deployment + Testing — ✅ Completed**
