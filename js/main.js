@@ -127,7 +127,20 @@ if (statsSection) {
             if (entry.isIntersecting && !counterStarted) {
 
                 counterStarted = true;
+
+                // Start counter
                 startCounters();
+
+                // Animate stats cards
+                const statCards = statsSection.querySelectorAll(".stat-card");
+
+                statCards.forEach((card, index) => {
+
+                    setTimeout(() => {
+                        card.classList.add("show");
+                    }, index * 150);
+
+                });
 
             }
 
@@ -138,8 +151,8 @@ if (statsSection) {
     });
 
     observer.observe(statsSection);
-
 }
+
 // Back to Top Button
 
 const backToTop = document.getElementById("backToTop");
@@ -168,3 +181,68 @@ if (backToTop) {
     });
 
 }
+
+// =========================
+// DARK MODE TOGGLE
+// =========================
+
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon = document.getElementById("themeIcon");
+
+// Load saved theme
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+
+    if (themeIcon) {
+        themeIcon.classList.remove("bi-moon-fill");
+        themeIcon.classList.add("bi-sun-fill");
+    }
+}
+
+// Toggle dark mode
+if (themeToggle) {
+    themeToggle.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+
+            localStorage.setItem("theme", "dark");
+
+            themeIcon.classList.remove("bi-moon-fill");
+            themeIcon.classList.add("bi-sun-fill");
+
+        } else {
+
+            localStorage.setItem("theme", "light");
+
+            themeIcon.classList.remove("bi-sun-fill");
+            themeIcon.classList.add("bi-moon-fill");
+        }
+
+    });
+}
+
+// ========================================
+// STATS CARDS - SLIDE UP ON SCROLL
+// ========================================
+
+const statCards = document.querySelectorAll(".stat-card");
+
+const statsObserver = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+
+    });
+
+}, {
+    threshold: 0.2
+});
+
+statCards.forEach((card) => {
+    statsObserver.observe(card);
+});

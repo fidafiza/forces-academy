@@ -1511,3 +1511,835 @@ color:#ddd;
     }
 
 }
+
+/* =========================
+   DARK MODE - WEEK 6
+========================= */
+
+body.dark-mode {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* Navbar */
+body.dark-mode #mainNav {
+    background: #111111 !important;
+}
+
+/* Hero */
+body.dark-mode #hero {
+    background: #121212 !important;
+}
+
+/* White sections */
+body.dark-mode .home-features,
+body.dark-mode .mission-vision,
+body.dark-mode .why-choose,
+body.dark-mode .team-section,
+body.dark-mode .courses-section,
+body.dark-mode .eligibility-section,
+body.dark-mode .documents-section,
+body.dark-mode .fee-section,
+body.dark-mode .results-filter,
+body.dark-mode .results-table,
+body.dark-mode .gallery-filter,
+body.dark-mode .gallery-section,
+body.dark-mode .contact-section,
+body.dark-mode .contact-info,
+body.dark-mode .stats-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* Section headings */
+body.dark-mode .section-title,
+body.dark-mode .home-features h2 {
+    color: #ffffff !important;
+}
+
+/* Paragraphs */
+body.dark-mode p,
+body.dark-mode .section-subtitle {
+    color: #dddddd !important;
+}
+
+/* Cards */
+body.dark-mode .card,
+body.dark-mode .home-card,
+body.dark-mode .mv-card,
+body.dark-mode .feature-card,
+body.dark-mode .team-card,
+body.dark-mode .course-card,
+body.dark-mode .eligibility-card,
+body.dark-mode .stat-card,
+body.dark-mode .contact-form,
+body.dark-mode .info-card {
+    background: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #333 !important;
+}
+
+/* Card headings */
+body.dark-mode .home-card h4,
+body.dark-mode .mv-card h3,
+body.dark-mode .feature-card h4,
+body.dark-mode .team-content h4,
+body.dark-mode .course-card h4,
+body.dark-mode .eligibility-card h4,
+body.dark-mode .stat-card h2,
+body.dark-mode .info-card h4 {
+    color: #ffffff !important;
+}
+
+/* Card paragraphs */
+body.dark-mode .home-card p,
+body.dark-mode .mv-card p,
+body.dark-mode .feature-card p,
+body.dark-mode .course-card p,
+body.dark-mode .eligibility-card p,
+body.dark-mode .stat-card p {
+    color: #dddddd !important;
+}
+
+/* List items */
+body.dark-mode .list-group-item {
+    background: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #333 !important;
+}
+
+/* Form fields */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
+
+/* White Bootstrap backgrounds */
+body.dark-mode .bg-white {
+    background: #1e1e1e !important;
+}
+
+/* Dark text */
+body.dark-mode .text-dark {
+    color: #f5f5f5 !important;
+}
+
+/* Keep yellow buttons */
+body.dark-mode .btn-warning {
+    color: #111111 !important;
+}
+
+/* Icons */
+body.dark-mode .home-card i,
+body.dark-mode .course-card i,
+body.dark-mode .feature-card i,
+body.dark-mode .eligibility-card i,
+body.dark-mode .stat-card i,
+body.dark-mode .info-card i {
+    color: #ffc107 !important;
+}
+
+/* Footer stays dark */
+body.dark-mode .footer-section {
+    background: #080808 !important;
+}
+
+
+.theme-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.theme-toggle:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.portal-btn {
+    padding: 10px 22px !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+
+
+/* =================================
+   DARK MODE - HERO FIX
+================================= */
+
+body.dark-mode #hero {
+    background: #121212 !important;
+}
+
+/* Purple glow remove */
+body.dark-mode .hero-glow {
+    background: transparent !important;
+    opacity: 0 !important;
+}
+
+/* Left & right floating glow remove */
+body.dark-mode #hero::before,
+body.dark-mode #hero::after {
+    background: transparent !important;
+    opacity: 0 !important;
+}
+
+/* Floating bubbles ko dark subtle rakho */
+body.dark-mode #hero .floating {
+    background: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Hero badge */
+body.dark-mode .hero-badge {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Hero text */
+body.dark-mode .hero-title {
+    color: #ffffff !important;
+}
+
+body.dark-mode .hero-text {
+    color: #d5d5d5 !important;
+}
+
+/* Learn More button */
+body.dark-mode .btn-outline-light {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+
+/* =====================================
+   DARK MODE - TESTIMONIAL + STATS + FOOTER
+===================================== */
+
+/* Testimonials */
+body.dark-mode .testimonials-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .testimonials-section .section-title {
+    color: #ffffff !important;
+}
+
+body.dark-mode .testimonials-section .section-subtitle {
+    color: #cccccc !important;
+}
+
+body.dark-mode .testimonial-card {
+    background: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .testimonial-quote {
+    color: #dddddd !important;
+}
+
+body.dark-mode .testimonial-card h4 {
+    color: #ffffff !important;
+}
+
+body.dark-mode .testimonial-card span {
+    color: #ffc107 !important;
+}
+
+
+/* =====================================
+   STATS SECTION ABOVE FOOTER
+===================================== */
+
+body.dark-mode .stats-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .stat-card {
+    background: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border: 1px solid #333 !important;
+}
+
+body.dark-mode .stat-card h2 {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .stat-card p {
+    color: #cccccc !important;
+}
+
+body.dark-mode .stat-card i {
+    color: #ffc107 !important;
+}
+
+
+/* Agar old stat-box wala section bhi use ho raha hai */
+body.dark-mode .stat-box {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .stat-box h2 {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .stat-box p {
+    color: #cccccc !important;
+}
+
+
+/* =====================================
+   FOOTER
+===================================== */
+
+body.dark-mode .footer-section {
+    background: #0d0d0d !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .footer-section p {
+    color: #cccccc !important;
+}
+
+body.dark-mode .footer-section h5 {
+    color: #ffffff !important;
+}
+
+body.dark-mode .footer-logo {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .footer-links a {
+    color: #cccccc !important;
+}
+
+body.dark-mode .footer-links a:hover {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .social-icons a {
+    background: #1e1e1e !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .social-icons a:hover {
+    background: #ffc107 !important;
+    color: #111 !important;
+}
+
+body.dark-mode .footer-bottom {
+    color: #999999 !important;
+}
+
+body.dark-mode .footer-section i {
+    color: #ffc107 !important;
+}
+
+/* =========================
+   DARK MODE - CTA SECTION
+========================= */
+
+body.dark-mode .cta-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .cta-section h2 {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .cta-section p {
+    color: #d0d0d0 !important;
+}
+
+
+
+
+/* =========================
+   COMPLETE WEBSITE DARK MODE
+========================= */
+
+body.dark-mode {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* Navbar */
+body.dark-mode #mainNav {
+    background: #111111 !important;
+}
+
+/* All common light sections */
+body.dark-mode .mission-vision,
+body.dark-mode .why-choose,
+body.dark-mode .team-section,
+body.dark-mode .home-features,
+body.dark-mode .courses-section,
+body.dark-mode .eligibility-section,
+body.dark-mode .documents-section,
+body.dark-mode .fee-section,
+body.dark-mode .results-filter,
+body.dark-mode .results-table,
+body.dark-mode .gallery-filter,
+body.dark-mode .gallery-section,
+body.dark-mode .contact-section,
+body.dark-mode .contact-info,
+body.dark-mode .stats-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* White cards */
+body.dark-mode .mv-card,
+body.dark-mode .feature-card,
+body.dark-mode .team-card,
+body.dark-mode .home-card,
+body.dark-mode .course-card,
+body.dark-mode .eligibility-card,
+body.dark-mode .contact-form,
+body.dark-mode .info-card,
+body.dark-mode .stat-card,
+body.dark-mode .list-group-item,
+body.dark-mode .fee-table,
+body.dark-mode .results-table table {
+    background: #1e1e1e !important;
+    color: #f5f5f5 !important;
+}
+
+/* Headings */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #f5f5f5 !important;
+}
+
+/* Normal paragraphs */
+body.dark-mode p {
+    color: #d6d6d6 !important;
+}
+
+/* Specific dark text */
+body.dark-mode .section-title,
+body.dark-mode .home-features h2,
+body.dark-mode .feature-card h4,
+body.dark-mode .mv-card h3,
+body.dark-mode .team-content h4,
+body.dark-mode .course-card h4,
+body.dark-mode .eligibility-card h4,
+body.dark-mode .info-card h4,
+body.dark-mode .stat-card h2 {
+    color: #f5f5f5 !important;
+}
+
+/* Lists */
+body.dark-mode .course-card ul,
+body.dark-mode .list-group-item {
+    color: #d6d6d6 !important;
+}
+
+/* Forms */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background: #1e1e1e !important;
+    color: #fff !important;
+    border-color: #444 !important;
+}
+
+/* Placeholder */
+body.dark-mode .form-control::placeholder {
+    color: #aaa !important;
+}
+
+/* Tables */
+body.dark-mode table {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .fee-table tbody tr:hover,
+body.dark-mode .results-table tbody tr:hover {
+    background: #2a2a2a !important;
+}
+
+/* Images/cards border */
+body.dark-mode .card,
+body.dark-mode .mv-card,
+body.dark-mode .feature-card,
+body.dark-mode .team-card,
+body.dark-mode .course-card,
+body.dark-mode .stat-card {
+    border-color: #333 !important;
+}
+
+/* Links */
+body.dark-mode a {
+    color: #f5f5f5;
+}
+
+/* Yellow buttons stay yellow */
+body.dark-mode .btn-warning {
+    background: #ffc107 !important;
+    color: #111 !important;
+}
+
+/* Footer */
+body.dark-mode .footer-section {
+    background: #0b0b0b !important;
+}
+
+/* About Hero - Dark Mode */
+body.dark-mode .about-section {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .about-section .about-title,
+body.dark-mode .about-section .about-text {
+    color: #f5f5f5 !important;
+}
+
+/* =========================
+   ADMISSIONS DARK MODE
+========================= */
+
+/* How to Apply section */
+body.dark-mode .list-group {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #333 !important;
+}
+
+/* Fee Structure section */
+body.dark-mode .fee-section {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .fee-section .section-title,
+body.dark-mode .fee-section .section-subtitle {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .fee-table {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .fee-table tbody,
+body.dark-mode .fee-table tr,
+body.dark-mode .fee-table td {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #444 !important;
+}
+
+body.dark-mode .fee-table tbody tr:hover {
+    background-color: #292929 !important;
+}
+
+/* =========================
+   HOW TO APPLY DARK MODE
+========================= */
+
+body.dark-mode .admission-process {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .admission-process .section-title {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .admission-process .section-subtitle {
+    color: #cccccc !important;
+}
+
+/* =========================
+   RESULTS DARK MODE
+========================= */
+
+/* Results Hero */
+body.dark-mode .results-hero {
+    background: #121212 !important;
+}
+
+/* Results Filter */
+body.dark-mode .results-filter {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .results-filter .form-select {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #444 !important;
+}
+
+body.dark-mode .results-filter .form-select option {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+/* Results Table Section */
+body.dark-mode .results-table {
+    background: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* Table */
+body.dark-mode .results-table table {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .results-table tbody tr,
+body.dark-mode .results-table tbody td {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+    border-color: #444 !important;
+}
+
+body.dark-mode .results-table tbody tr:hover td {
+    background-color: #292929 !important;
+    color: #fff !important;
+}
+
+/* Table Heading */
+body.dark-mode .results-table thead {
+    background-color: #000 !important;
+}
+
+body.dark-mode .results-table th {
+    color: #fff !important;
+}
+
+/* Gallery Hero Dark Mode */
+.dark-mode .gallery-hero {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.dark-mode .gallery-hero .section-title,
+.dark-mode .gallery-hero .section-subtitle {
+    color: #fff !important;
+}
+
+/* Contact Hero Dark Mode */
+.dark-mode .contact-hero {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.dark-mode .contact-hero .section-title,
+.dark-mode .contact-hero .section-subtitle {
+    color: #fff !important;
+}
+
+/* ==========================
+   PAGE LOAD ANIMATIONS
+========================== */
+
+/* Hero Heading Fade In */
+
+.hero-title {
+    animation: heroFadeIn 1.2s ease-out;
+}
+
+@keyframes heroFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==========================
+   STATS SCROLL ANIMATION
+========================== */
+
+.stat-card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.stat-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ========================================
+   COURSE CARDS - ONE BY ONE ANIMATION
+======================================== */
+
+.row.g-4 > div:has(.course-card) .course-card {
+    opacity: 0;
+    animation: courseCardAppear 0.8s ease forwards;
+}
+
+
+/* Card 1 */
+.row.g-4 > div:nth-child(1) .course-card {
+    animation-delay: 0.3s;
+}
+
+
+/* Card 2 */
+.row.g-4 > div:nth-child(2) .course-card {
+    animation-delay: 1s;
+}
+
+
+/* Card 3 */
+.row.g-4 > div:nth-child(3) .course-card {
+    animation-delay: 1.7s;
+}
+
+
+/* Card 4 */
+.row.g-4 > div:nth-child(4) .course-card {
+    animation-delay: 2.4s;
+}
+
+
+/* Card 5 */
+.row.g-4 > div:nth-child(5) .course-card {
+    animation-delay: 3.1s;
+}
+
+
+/* Card 6 */
+.row.g-4 > div:nth-child(6) .course-card {
+    animation-delay: 3.8s;
+}
+
+
+/* ========================================
+   ANIMATION
+======================================== */
+
+@keyframes courseCardAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/* ========================================
+   HERO HEADING FADE-IN ANIMATION
+======================================== */
+
+.hero-title {
+    opacity: 0;
+    animation: heroFadeIn 1.5s ease forwards;
+}
+
+
+/* Hero heading animation */
+
+/* ========================================
+   HERO HEADING FADE-IN
+======================================== */
+
+.hero-title {
+    opacity: 0;
+    animation: heroFadeIn 3s ease-in-out forwards;
+}
+
+@keyframes heroFadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/* ========================================
+   STATS CARDS - NOTICEABLE SLIDE UP
+======================================== */
+
+.stat-card {
+    opacity: 0;
+    transform: translateY(80px);
+}
+
+/* Jab screen par aaye */
+.stat-card.show {
+    animation: statsSlideUp 2s ease-in-out forwards;
+}
+
+
+/* One by one delay */
+
+.stat-card:nth-child(1).show {
+    animation-delay: 0s;
+}
+
+.stat-card:nth-child(2).show {
+    animation-delay: 0.7s;
+}
+
+.stat-card:nth-child(3).show {
+    animation-delay: 1.4s;
+}
+
+.stat-card:nth-child(4).show {
+    animation-delay: 2.1s;
+}
+
+
+/* Animation */
+
+@keyframes statsSlideUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
