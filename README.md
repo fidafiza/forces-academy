@@ -276,7 +276,122 @@ https://fidafiza.github.io/forces-academy/
 - Optimize and compress images further for improved loading speed.
 - Add more dynamic content and real academy data in the future.
 
+
+## 📌 Project Status
+
+**Week 5 — ✅ Completed**
+
+**Final Polish + Deployment + Testing — ✅ Completed**
+
+# Forces Academy Faisalabad — Week 6
+
+## Advanced Features
+
+Week 6 focuses on adding advanced frontend features that improve the user experience and make the Forces Academy Faisalabad website more professional.
+
+### 🚀 Features Completed
+
+#### 1. Dark Mode Toggle
+- Added Dark/Light Mode toggle button in the navbar.
+- Added JavaScript functionality to switch between light and dark themes.
+- Dark mode styles are defined using `body.dark-mode`.
+- User theme preference is saved using `localStorage`.
+- Theme preference remains active while navigating between pages.
+- Moon icon appears in light mode.
+- Sun icon appears in dark mode.
+
+#### 2. Page Load Animations
+Added subtle and professional CSS animations to the Home page.
+
+- Hero heading fades in when the page loads.
+- Statistics cards slide up when they come into view.
+- Course cards appear one by one with staggered delays.
+- CSS `@keyframes` and animation properties are used.
+- Animations are kept smooth and professional.
+
+#### 3. SEO Basics
+Added basic SEO optimization to all website pages.
+
+- Meta description
+- Meta keywords
+- Open Graph title
+- Open Graph description
+
+These tags help improve search engine visibility and social media sharing.
+
+#### 4. Favicon
+- Added a custom Forces Academy favicon.
+- Favicon is displayed in the browser tab.
+- Added favicon to all website pages.
+
+#### 5. Image Accessibility
+- Added descriptive `alt` attributes to website images.
+- Helps improve accessibility and provides alternative text for images.
+
 ---
+
+## 📚 Website Pages
+
+The website includes:
+
+- Home
+- About
+- Courses
+- Admissions
+- Results
+- Gallery
+- Contact
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Bootstrap Icons
+- Google Fonts
+
+---
+
+## 🌙 Dark Mode
+
+The website supports a complete dark mode experience across all pages.
+
+The selected theme is stored in `localStorage`, so the user's preference remains active while navigating through the website.
+
+---
+
+## ✨ Week 6 Learning Outcomes
+
+Through Week 6, the project was enhanced with:
+
+- Dark mode functionality
+- Persistent theme preferences
+- CSS animations
+- Page load effects
+- Staggered card animations
+- SEO meta tags
+- Open Graph metadata
+- Custom favicon
+- Image accessibility improvements
+
+---
+
+## 👩‍💻 Project
+
+**Forces Academy Faisalabad**
+
+A modern educational website focused on academic excellence, discipline, leadership, and student development.
+
+---
+
+## 📌 Internship Task
+
+**Week 6 — Advanced Features**
+
+**Frontend Track:** Dark Mode Toggle + Page Animations + SEO Basics
 
 ## 👩‍💻 Built By
 
@@ -284,10 +399,3 @@ Fiza
 Frontend Intern  
 Code Saviours SI-26 | 2026
 
----
-
-## 📌 Project Status
-
-**Week 5 — ✅ Completed**
-
-**Final Polish + Deployment + Testing — ✅ Completed**
