@@ -393,6 +393,90 @@ A modern educational website focused on academic excellence, discipline, leaders
 
 **Frontend Track:** Dark Mode Toggle + Page Animations + SEO Basics
 
+# Week 7 — Final Features + Integration
+
+**Duration:** August 10 – August 14, 2026
+
+## 🎯 Week 7 Overview
+
+Week 7 focused on adding the final frontend features and connecting the Forces Academy Faisalabad website with the Full Stack LMS and EmailJS.
+
+---
+
+## 🚀 Features Completed
+
+### 1. Student Portal LMS Integration
+
+The Student Portal button has been connected to the live Full Stack LMS.
+
+**Live LMS:**  
+https://ramish.great-site.net/login.php
+
+The LMS link was updated across all website pages.
+
+---
+
+### 2. Admission Enquiry Form with EmailJS
+
+The enquiry form has been integrated with **EmailJS** to send admission enquiries directly to Gmail.
+
+The form includes:
+
+- Name
+- Email Address
+- Phone Number
+- Course
+- Subject
+- Message
+
+The submitted information is sent through EmailJS and received in the configured Gmail account.
+
+### Email Template
+
+```text
+New Admission Enquiry
+
+Name: {{name}}
+Email: {{email}}
+Phone: {{phone}}
+Course: {{course}}
+Subject: {{subject}}
+
+Message:
+{{message}}
+
+Latest Announcements / News Section
+
+A Latest Announcements section was added to the Home page to keep students and visitors updated about important academy activities and news.
+
+The section contains three announcement cards, each with a date, title, short description, and a Read More link.
+
+📢 Admissions Open 2026
+
+Date: August 10, 2026
+
+Admissions are now open for the 2026 academic session. Students can explore the available programs and apply for admission at Forces Academy Faisalabad.
+
+Read More: Admissions Page
+
+🏆 Result Announcement
+
+Date: August 7, 2026
+
+The latest academic results have been announced. Students can visit the Results page to check result information and celebrate their academic achievements.
+
+Read More: Results Page
+
+🎓 New Batch Starting
+
+Date: August 5, 2026
+
+A new academic batch is starting soon at Forces Academy Faisalabad. Students can explore the available courses and prepare to begin their academic journey.
+
+Read More: Courses Page
+
+Thank you.
+
 ## 👩‍💻 Built By
 
 Fiza 
