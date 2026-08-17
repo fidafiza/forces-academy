@@ -246,3 +246,38 @@ const statsObserver = new IntersectionObserver((entries) => {
 statCards.forEach((card) => {
     statsObserver.observe(card);
 });
+// EmailJS - Contact / Admission Enquiry Form
+emailjs.init({
+    publicKey: "4e1OdY5yqM6VfwY6R"
+});
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const templateParams = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            phone: document.getElementById("phone").value,
+            course: document.getElementById("course").value,
+            subject: document.getElementById("subject").value,
+            message: document.getElementById("message").value
+        };
+
+        emailjs.send(
+            "service_56oyn7u",
+            "template_l7uzgbk",
+            templateParams
+        )
+        .then(function () {
+            alert("Your enquiry has been sent successfully!");
+            contactForm.reset();
+        })
+        .catch(function (error) {
+            console.error("EmailJS Error:", error);
+            alert("EmailJS Error: " + (error.text || error.message || JSON.stringify(error)));
+        });
+    });
+}

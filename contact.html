@@ -97,10 +97,12 @@ href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
 
-                    <li class="nav-item ms-lg-3">
-    <a href="#" class="btn btn-warning fw-semibold portal-btn">
-    Student Portal
-</a>
+                   <li class="nav-item ms-lg-3">
+    <a href="https://ramish.great-site.net/login.php"
+       class="btn btn-warning fw-semibold portal-btn"
+       target="_blank">
+        Student Portal
+    </a>
 </li>
                 <li class="nav-item ms-lg-2">
     <button id="themeToggle"
@@ -167,6 +169,18 @@ href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
                             <div class="col-md-6 mb-3">
                                 <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
                             </div>
+
+                            <div class="col-md-6 mb-3">
+    <select class="form-control" id="course" required>
+        <option value="" selected disabled>Select Course</option>
+        <option value="FSc Pre-Medical">FSc Pre-Medical</option>
+        <option value="FSc Pre-Engineering">FSc Pre-Engineering</option>
+        <option value="Matric Science">Matric Science</option>
+        <option value="Matric Arts">Matric Arts</option>
+        <option value="Entry Test Preparation">Entry Test Preparation</option>
+        <option value="Computer Short Courses">Computer Short Courses</option>
+    </select>
+</div>
 
                             <div class="col-md-6 mb-3">
                                 <input type="text" class="form-control" id="subject" placeholder="Subject" required>
@@ -349,6 +363,7 @@ href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <i class="bi bi-arrow-up"></i>
 </button>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

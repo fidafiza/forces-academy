@@ -2343,3 +2343,125 @@ body.dark-mode .results-table th {
     }
 
 }
+#course {
+    color: #6c757d;
+}
+
+#course option {
+    color: #212529;
+}
+
+#course:valid {
+    color: #212529;
+}
+body.dark-mode #course {
+    background-color: #1e293b;
+    color: #adb5bd;
+}
+
+body.dark-mode #course option {
+    background-color: #1e293b;
+    color: white;
+}
+
+body.dark-mode #course:valid {
+    color: white;
+}
+
+/* =========================================
+   Latest Announcements
+========================================= */
+
+.announcements-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.announcement-card {
+    height: 100%;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.announcement-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+.announcement-date {
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.announcement-date i {
+    margin-right: 6px;
+}
+
+.announcement-card h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #081b33;
+}
+
+.announcement-card p {
+    color: #6c757d;
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.announcement-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: #081b33;
+    font-weight: 600;
+    text-decoration: none;
+    transition: gap 0.3s ease;
+}
+
+.announcement-link:hover {
+    color: #f4b400;
+    gap: 11px;
+}
+
+
+/* =========================================
+   Announcements - Dark Mode
+========================================= */
+
+body.dark-mode .announcement-card {
+    background: #111827;
+    border-color: #263244;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
+}
+
+body.dark-mode .announcement-card h4 {
+    color: #ffffff;
+}
+
+body.dark-mode .announcement-card p,
+body.dark-mode .announcement-date {
+    color: #adb5bd;
+}
+
+body.dark-mode .announcement-link {
+    color: #ffffff;
+}
+
+body.dark-mode .announcement-link:hover {
+    color: #f4b400;
+}
+/* Latest Announcements - White Heading */
+
+.announcements-section .section-tag,
+.announcements-section .section-title {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
