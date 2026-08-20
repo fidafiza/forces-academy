@@ -477,9 +477,77 @@ Read More: Courses Page
 
 Thank you.
 
-## 👩‍💻 Built By
+# Week 8 – Final Polish, Documentation & Demo Preparation
 
-Fiza 
-Frontend Intern  
-Code Saviours SI-26 | 2026
+## 📅 Week
+**Week 8 | August 17 – August 21, 2026**
+
+## 🎯 Objective
+
+The main objective of Week 8 was to complete the final polishing of the Forces Academy Faisalabad website, finalize project documentation, update LinkedIn, and prepare the project for Demo Day.
+
+## ✅ Work Completed
+
+### 1. Final Bug Fix & Polish
+
+- Reviewed the complete website for remaining issues.
+- Fixed visual inconsistencies across the website.
+- Tested all navigation links and buttons.
+- Tested the Contact/Admission Enquiry form.
+- Verified EmailJS integration and Gmail email delivery.
+- Checked Dark/Light mode functionality.
+- Tested the website on different screen sizes.
+- Verified the Latest Announcements section.
+- Checked the Student Portal/LMS integration.
+
+### 2. GitHub README
+
+- Updated the GitHub README with complete project information.
+- Added project description and features.
+- Added technologies used in the project.
+- Added live website and repository links.
+- Added project screenshots.
+- Added instructions for running the project locally.
+- Documented the final Week 8 work.
+
+### 3. LinkedIn Update
+
+- Added my Web Development Internship at Code Saviours to LinkedIn Experience.
+- Added the Forces Academy Faisalabad project to the LinkedIn Featured section.
+- Added the live website link.
+- Published a LinkedIn post about the completed project and internship experience.
+
+### 4. Demo Day Preparation
+
+Prepared a short project walkthrough for Demo Day, including:
+
+- Home page
+- Courses page
+- Admissions page
+- Contact/Enquiry form
+- Latest Announcements
+- Dark/Light mode
+- Responsive design
+- Student Portal/LMS
+
+The project walkthrough was planned to be completed within approximately **5 minutes**.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- EmailJS
+- Git
+- GitHub
+- GitHub Pages
+
+## 🎓 Built By
+
+**Fiza Fida | Code Saviours SI-26 | 2026**
+
+## 📌 Week 8 Outcome
+
+The Forces Academy Faisalabad website was finalized, tested, documented, published on GitHub Pages, and prepared for the final Demo Day presentation.
 
