@@ -431,20 +431,6 @@ The form includes:
 
 The submitted information is sent through EmailJS and received in the configured Gmail account.
 
-### Email Template
-
-```text
-New Admission Enquiry
-
-Name: {{name}}
-Email: {{email}}
-Phone: {{phone}}
-Course: {{course}}
-Subject: {{subject}}
-
-Message:
-{{message}}
-
 Latest Announcements / News Section
 
 A Latest Announcements section was added to the Home page to keep students and visitors updated about important academy activities and news.
@@ -549,5 +535,4 @@ The project walkthrough was planned to be completed within approximately **5 min
 
 ## 📌 Week 8 Outcome
 
-The Forces Academy Faisalabad website was finalized, tested, documented, published on GitHub Pages, and prepared for the final Demo Day presentation.
-
+The Forces Academy Faisalabad website was finalized, tested, documented, published on GitHub Pages, and prepared for the final Demo Day presention . 
